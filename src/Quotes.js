@@ -22,7 +22,7 @@ const Quotes = () => {
     <>
       <h3>{quote?.content}</h3>
       <div>{quote?.author}</div>
-      <button onClick={changingQuote}>New Quotes</button>
+      <button onClick={changingQuote}>New Quotes with async await</button>
     </>
   );
 };

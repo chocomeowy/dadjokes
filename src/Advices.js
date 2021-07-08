@@ -34,7 +34,7 @@ const Advice = () => {
     <>
       <h3>{quote?.slip?.advice}</h3>
 
-      <button onClick={changingQuote}>New Advice</button>
+      <button onClick={changingQuote}>New Advice with fetch</button>
     </>
   );
 };
